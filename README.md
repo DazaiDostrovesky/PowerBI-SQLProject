@@ -13,3 +13,13 @@ This project includes the following:
 - 3 Power BI dashboard pages (Executive Summary, Product Analysis, Customer Insights)
 - Over 9,800 sales records analyzed.
 - SQL views for optimized Power BI connectivity
+
+Download the Superstore dataset from Kaggle (https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) and save as `train.csv` in the project folder.
+The sql downloads should be done in the following order:
+1. CreateSchema
+2. CreateTable
+3. ImportData
+4. CleanData
+5. CreateView
+
+Note: Make sure `train.csv` is in the same folder as the SQL files before the third step.
